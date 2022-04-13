@@ -1,0 +1,9 @@
+Port_Scanner
+Basic Port Scanner to locate open ports. I have integrated multithreating to concurrently scan multiple ports at a time (Basically this makes the scan faster). Please note this port scanner is capable of scanning Public IP addresses. I am not responsible for what you do with this - you are responsible for your own actions. This was created as a project because of my passion for infosec and programming.
+
+How to:
+
+Download ZIP and extract to desired location.
+Navigate to location you have extracted to I.E C:\Users<user>\Documents\port_scanner
+Select File > Open CMD as Administrator OR Open Powershell as Administrator
+Type in python port_scanner.py <IP_Address_of_Host_You_Want_To_Scan>
