@@ -1,5 +1,5 @@
 Remove_Duplicates
-#I created this script to simplify the process of removing duplicate IP addresses in an excel file. The script is very straight forward - you specify the excel file that it should remove duplicates from on row 8 and it will spit out new excel file with the name of your choice - you can rename the file on row 34. Currently it works off of 2 columns (A & B) - you can paste your data into these columns or condense your data into 2 columns in your own file to manipulate it to work for you.
+#During an engagement at work I was required to extract logs from SNMP managed devices.  These logs were largely obfuscated and had many duplicate source and desination IP addresses.  I was required to identify unique source-destiantion IP's.  I created this script to simplify the process of identifying unique combinations.  The script is very straight forward - you specify the excel file that it should remove duplicates from on row 8 and it will spit out new excel file with the name of your choice - you can rename the file on row 34. Currently it works off of 2 columns (A & B) but will remove the duplicate in Column B - you can paste your data into these columns or condense your data into 2 columns in your own file to manipulate it to work for you.
 
 How to use script:
 
